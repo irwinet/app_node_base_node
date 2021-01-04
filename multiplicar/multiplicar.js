@@ -1,5 +1,6 @@
 // requireds
 const fs = require('fs');
+const colors = require('colors');
 // const fs = require('express'); No son nativos de Node
 // const fs = require('./fs');
 
@@ -29,7 +30,9 @@ let crearArchivo = (base, limite = 10) => {
 
 let listarTabla = (base, limite = 10) => {
     let data = '';
-
+    console.log('========================================'.green);
+    console.log(`==========tabla  de ${base}=============`.green);
+    console.log('========================================'.green);
     for (let i = 1; i <= limite; i++) {
         // console.log(`${base} * ${i} = ${base * i}`);
         data += `${base} * ${i} = ${base * i}\n`;
