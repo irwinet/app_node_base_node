@@ -1,0 +1,23 @@
+{
+  "name": "basesnode",
+  "version": "1.0.0",
+  "description": "Esta es una aplicacion de linea de comando",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irwinet/app_node_base_node.git"
+  },
+  "author": "Irwin Estrada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irwinet/app_node_base_node/issues"
+  },
+  "homepage": "https://github.com/irwinet/app_node_base_node#readme",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  },
+  "devDependencies": {}
+}
